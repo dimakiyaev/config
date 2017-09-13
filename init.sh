@@ -30,5 +30,5 @@ ln -sfT "$(pwd)/vim" ~/.vim
 ln -sf "$(pwd)/vim/vimrc" ~/.vimrc
 ln -sf "$(pwd)/tmux.conf" ~/.tmux.conf
 ln -sf "$(pwd)/zshrc" ~/.zshrc
-ln -sf "$(pwd)/oh-my-zsh" ~/.oh-my-zsh
+ln -sfT "$(pwd)/oh-my-zsh" ~/.oh-my-zsh
 #ln -sf "$(pwd)/zprofile" ~/.zprofile
