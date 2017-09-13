@@ -1,5 +1,3 @@
 set sessionoptions-=options
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
 
 source ~/.vim/vim.config
