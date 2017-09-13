@@ -24,7 +24,7 @@ if [ "$right_folder" != "$script_dir" ]; then
     exit $?
 fi
 
-git pull 
+git pull && git submodule update --init
 #oh-my-zsh/plugins/fzf/install --bin > /dev/null || true
 ln -sfT "$(pwd)/vim" ~/.vim
 ln -sf "$(pwd)/vim/vimrc" ~/.vimrc
