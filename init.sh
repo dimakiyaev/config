@@ -23,12 +23,11 @@ if [ "$right_folder" != "$script_dir" ]; then
     "$right_folder"/init.sh
     exit $?
 fi
-
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git pull
 #oh-my-zsh/plugins/fzf/install --bin > /dev/null || true
 ln -sfT "$(pwd)/vim" ~/.vim
 ln -sf "$(pwd)/vim/vimrc" ~/.vimrc
 ln -sf "$(pwd)/tmux.conf" ~/.tmux.conf
 ln -sf "$(pwd)/zshrc" ~/.zshrc
-ln -sfT "$(pwd)/oh-my-zsh" ~/.oh-my-zsh
 #ln -sf "$(pwd)/zprofile" ~/.zprofile
