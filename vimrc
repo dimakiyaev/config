@@ -6,7 +6,6 @@ set showmatch
 autocmd! bufwritepost $MYVIMRC source $MYVIMRC
 set list 
 set smartindent
-set number
 set backup
 set wildmode=longest,list,full
 set wildmenu" Настройка окружения
