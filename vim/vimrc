@@ -1,3 +1,1 @@
-set sessionoptions-=options
-
 source ~/.vim/vim.config
